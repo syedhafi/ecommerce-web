@@ -11,7 +11,6 @@ const Product = (curElem) => {
           <img src={image} alt={name} />
           <figcaption className="caption">{category}</figcaption>
         </figure>
-
         <div className="card-data">
           <div className="card-data-flex">
             <h3>{name}</h3>
